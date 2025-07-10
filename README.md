@@ -2,4 +2,4 @@
 
 ## This App made with laravel 12
 
-Developer : Mhd Firdaus
+<i><strong>Developer : Mhd Firdaus</strong></i>
