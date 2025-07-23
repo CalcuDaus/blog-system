@@ -13,6 +13,8 @@ class Post extends Model
     protected $fillable = ['title', 'slug', 'author_id', 'body'];
     public $timestamps = true;
 
+    protected $with = ['author', 'category'];
+
     public function author(): BelongsTo
     {
         return $this->belongsTo(User::class);
